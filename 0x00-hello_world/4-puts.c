@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*main - A proprogram that prints exactly "Programming is like building a multil
-ingual puzzle, followed by a new line
+* main - A proprogram that prints a line with puts funtio
+n
 *
-*Returns: 0 (success)
+* Return: 0 (Success)
 */
 	int main(void)
 	{
