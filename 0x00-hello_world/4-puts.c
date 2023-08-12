@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-* main - A proprogram that prints a line with puts funtio
-n
+* main - A proprogram that prints a line with puts funtion
 *
 * Return: 0 (Success)
 */
