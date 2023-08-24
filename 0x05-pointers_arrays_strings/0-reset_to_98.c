@@ -10,6 +10,7 @@
 */
 
 void reset_to_98(int *n)
+//Changes the value of the pointer
 {
 	*n = 98;
 }
