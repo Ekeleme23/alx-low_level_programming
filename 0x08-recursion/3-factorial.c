@@ -15,7 +15,8 @@ if (n == 0)
 	}
 else if  (n > 0)
 	{
-	int count = n * factorial(n-1);
+	int count = n * factorial(n - 1);
+
 	return (count);
 	}
 else
