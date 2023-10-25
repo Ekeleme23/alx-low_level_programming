@@ -2,7 +2,8 @@
 
 int is_prime_number(int n);
 /**
-* is_primer_number - checks if the number is prime number and calls the2nd function
+* is_prime_number - checks if the number is prime number and
+*calls the2nd function
 * @n: this is the number to be checked
 *
 * Return: a value to call n
