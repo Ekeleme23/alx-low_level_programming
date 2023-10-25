@@ -2,7 +2,7 @@
 
 int is_prime_number(int n);
 /**
-* primer - checks if the number is prime number and calls the2nd function
+* is_primer_number - checks if the number is prime number and calls the2nd function
 * @n: this is the number to be checked
 *
 * Return: a value to call n
@@ -21,7 +21,7 @@ return (primer(n, 2));
 }
 
 /**
-* is_prime_number - a function that checks if n is a prime number
+* primer - a function that checks if n is a prime number
 * @n: variable to be checked
 * @i: variable use dto check
 * Return: 0 or 1 to indicate if its prime
