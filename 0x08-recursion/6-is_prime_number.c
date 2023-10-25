@@ -1,13 +1,13 @@
 #include "main.h"
 
-int is_prime_number(int n, int i);
+int is_prime_number(int n);
 /**
 * primer - checks if the number is prime number and calls the2nd function
 * @n: this is the number to be checked
 *
 * Return: a value to call n
 **/
-int primer(int n)
+int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
@@ -17,7 +17,7 @@ else if (n == 2)
 	{
 	return (1);
 	}
-return (is_prime_number(n, 2));
+return (primer(n, 2));
 }
 
 /**
@@ -26,7 +26,7 @@ return (is_prime_number(n, 2));
 * @i: variable use dto check
 * Return: 0 or 1 to indicate if its prime
 **/
-int is_prime_number(int n, int i)
+int primer(int n, int i)
 {
 	if (i == 1)
 	{
