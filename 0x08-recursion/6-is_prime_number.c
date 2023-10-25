@@ -38,6 +38,6 @@ int primer(int n, int i)
 	}
 	else
 	{
-	return (prime(n, i - 1)); /*Check the next value of i*/
+	return (primer(n, i - 1)); /*Check the next value of i*/
 	}
 }
