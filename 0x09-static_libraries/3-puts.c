@@ -3,12 +3,15 @@
 
 void _puts(char *str);
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
-int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+* _puts - A function that prints a string
+* @str: a variable that holds the string to be printed
+* Return: Returns nothing
+**/
+
+void _puts(char *str) {
+	while (*str) {
+	putchar(*str);
+	str++;
+	}
+	putchar('\n'); /*Add a newline character to mimic the behavior of puts*/
 }
