@@ -1,25 +1,17 @@
-
-/* name_printer.c */
-
 #include "function_pointers.h"
-
+#include <stdio.h>
 /**
-* printName - Print a name
-* @name: The name to be printed
-*/
-void printName(char *name)
-{
-	/* Your code to print the name */
-	/* For example: printf("Name: %s\n", name); */
-}
-
-/**
-* print_name - Call a function to print a name
-* @name: The name to be printed
-* @f: The function to print the name
-*/
+* print_name - print name using pointer to function
+* @name: string to add
+* @f: pointer to function
+* Return: nothing
+**/
 void print_name(char *name, void (*f)(char *))
 {
+	if (name == NULL || f == NULL)
+	return;
+
+
 	f(name);
 }
 
